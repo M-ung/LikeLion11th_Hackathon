@@ -1,0 +1,70 @@
+.post {
+    width: 550px;
+    margin: 20px;
+}
+
+.post_header {
+    display: flex;
+    justify-content: space-between; /*점3개 아이콘옮기기*/
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.post_headerAuthor{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-weight: bolder;
+}
+
+.post_headerAuthor p {
+    font-size: 16px;
+    margin-left: 5px;
+    margin-right: 6px;
+}
+.post_headerAuthor span {
+    color: grey;
+    font-size: 13px;
+}
+
+.post_image img{
+    width: 100%;
+    border-radius: 6px;
+    border: 0.6px solid rgba(8, 8, 8, 0.2)
+}
+
+
+
+.post_footerIcons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.postIcon {
+    padding: 3px;
+    font-size: larger;
+    /* 아이콘 사이즈가 조정이안돼 .. */
+}
+
+.postIcon:hover {
+    cursor:pointer;
+}
+
+
+.reactionsModal {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+    position: absolute;
+    left: 100px;
+    gap: 7px;
+    font-size: larger;
+}

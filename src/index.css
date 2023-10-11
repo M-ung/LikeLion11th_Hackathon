@@ -1,0 +1,281 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+@font-face {
+	font-family: 'Noto Serif KR', serif;
+	src: url(./assets/fonts/Noto_Serif_KR/NotoSerifKR-Regular.otf);
+}
+
+:root {
+	--font-Notoserif: "Notoserif";
+	--font-NotoSerifKR: "Noto Serif KR", serif;
+}
+
+
+
+@font-face {
+  font-family: "LeferiPoint-SpecialItalicA";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/LeferiPoint-SpecialItalicA.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'HANAMDAUM';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/HANAMDAUM.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+.div-inner {
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 350px;
+  height: 400px;
+  margin: 100px auto;
+  border: 1px solid rgb(196, 196, 196);
+  text-align: center;
+}
+.div-inner2 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 350px;
+  height: 60px;
+  margin: 550px auto;
+  border: 1px solid rgb(196, 196, 196);
+  text-align: center;
+}
+
+.header-title {
+  padding-top: 30px;
+    font-family: var(--font-NotoSerifKR);
+  font-size: 40px;
+}
+
+
+
+.input-tel {
+  border: 1px solid rgb(196, 196, 196);
+  width: 250px;
+  padding: 14px;
+  background-color: rgb(250, 247, 247);
+  margin-top: 25px;
+  font-family: 'HANAMDAUM';
+}
+
+.button-login,
+.button-register {
+  box-sizing: content-box;
+  width: 250px;
+  border: 1px solid gray;
+  background-color: gray;
+  padding: 8px 14px;
+  margin-top: 50px;
+  text-align: center;
+  color: white;
+  font-weight: 900;
+  border-radius: 10px;
+  font-family: var(--font-NotoSerifKR);
+}
+
+.button-register {
+  margin-top: 10px;
+}
+
+.div-modal-container {
+  z-index: 1; 
+  position: fixed;
+  display : flex;
+  justify-content : center;
+  align-items : center;
+  background-color: rgba(0,0,0,0.4);
+  border-radius: 10px;
+  top : 0;
+  left : 0;
+  right : 0;
+  bottom : 0;
+}
+
+.div-modal-inner-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  width: 500px;
+  height: 400px;
+  background-color: #ffffff;
+  position: relative;
+
+}
+
+.button-modal {
+  color:black;
+  font-size: 20px;
+  text-decoration: none;
+  background-color: white;
+  border: none;
+  padding: 20px;
+  border-radius: 30px;
+  cursor: grab;
+  border-radius: 10px;
+  text-decoration: none;
+  margin: 10px;
+  padding: 5px 10px;
+  width: 60px;
+  height: 60px;
+  display : flex;
+  justify-content : center;
+  align-items : center;
+  position: absolute;
+  left:420px;
+  right: 0px;
+}
+
+.button-input-modal-tel {
+  position: absolute;
+  top:180px;
+  font-family: 'HANAMDAUM';
+  width:370px;
+  border: 1px solid rgb(196, 196, 196);
+  padding: 14px;
+  background-color: rgb(250, 247, 247);
+  margin-top: 8px;
+}
+.p-content {
+  position: absolute;
+  top:60px;
+  font-family: 'HANAMDAUM';
+}
+
+.div-modal-tel {
+  display: flex;
+  position: absolute;
+  top:90px;
+}
+
+.div-modal-tel .input-modal-user{
+  width: 50px;
+}
+.div-modal-tel .input-modal-user{
+  width: 80px;
+}
+
+.button-modal-tel {
+  border: 1px solid rgb(196, 196, 196);
+  width: 75px;
+  padding: 14px;
+  background-color: rgb(250, 247, 247);
+  margin-top: 25px;
+  font-family: 'HANAMDAUM';
+}
+
+.p-sec-content {
+  position: absolute;
+  top:250px;
+  font-family: 'HANAMDAUM';
+}
+
+.div-modal-certification {
+  position: absolute;
+  top:280px;
+}
+
+.p-timer {
+  position: absolute;
+  top:150px;
+  font-size: 15px;
+  font-family: 'HANAMDAUM';
+  color: rgb(247, 69, 69);
+}
+
+.div-image-container {
+  margin:100px auto;
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 580px;
+  height: 650px;
+  text-align: center;
+  font-family: 'HANAMDAUM';
+}
+
+.div-title {
+  border-bottom: 1px solid gray;
+}
+
+.div-title p {
+  display: inline-block;
+  padding-right: 360px;
+}
+
+.div-title button {
+  border: none;
+  background-color: white;
+  color:rgb(139, 22, 248);
+  font-weight: bolder;
+  font-family: 'HANAMDAUM';
+}
+
+
+
+.p-image-title {
+  margin:0;
+  padding:6px;
+  text-align: left;
+}
+
+.svg-image-upload {
+  margin-top: 180px;
+}
+
+.div-label-container {
+  width: 150px;
+  margin: 0 auto;
+}
+
+.p-image-select {
+  margin-bottom: 30px;
+}
+.label-image {
+  padding:8px 20px;
+  background-color: #3AB4F0;
+  color:white;
+  border-radius: 10px;
+}
+
+.container-one {
+  box-sizing: content-box;
+  position:'relative';
+  z-index:1;
+
+  border-right: 1px solid gray;
+  height: 620px;
+}
+
+.container-two {
+  position: relative;
+  top:-340px;
+  z-index: 2;
+}
+
+
+.image-upload {
+  width: 350px;
+  height: 610px;
+  object-fit: contain;
+}
+

@@ -1,0 +1,37 @@
+@font-face {
+    font-family: 'HANAMDAUM';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/HANAMDAUM.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.toast-alert {
+
+    border-radius: 10px;
+    height: 40px;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    font-size:16px;
+    font-weight: bold;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 20px;
+    left: 43%;
+    background-color: rgba(121, 120, 120, 0.719);
+    color: #fff;
+    z-index: 10000;
+  }
+  
+  .toast-alert img {
+    width: 25px;
+    height: auto;
+
+  }
+  
+  .toast-alert p {
+    margin: 0;
+  }
