@@ -1,4 +1,4 @@
-# InstaGrandma_hackathon
+# InstaGrandma
 ## 멋쟁이사자처럼 11기 중앙 해커톤 (주제: 디지털 격차를 줄이기 위한 서비스 개발)<br>
 👉 디지털 격차를 줄이기 위해 시니어분들을 위한 SNS 개발 <br>
 👉 SNS 소통을 통해 일상공유
